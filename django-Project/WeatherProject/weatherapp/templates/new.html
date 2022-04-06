@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+appid = 'https: // api.openweathermap.org / data / 2.5 / weather?q =' + city + '&units=metric&apiid=e325f6e4580dbda483dc8c54a0466212'
+    r=requests.get(city)
+    res=r.json()
+    temp=r['main']['temp']
+    print(temp)
+</body>
+</html>
